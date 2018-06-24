@@ -578,6 +578,48 @@ button.validate  {
   background: #5887f9;
   border: none;
 }*/
+.funds-main-sec {
+  border: 1px solid lightgrey;
+  padding: 20px;
+}
+.funds-main-sec h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.funds-main-sec .issue-token button {
+    background: #5887f9;
+    color: #fff;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.funds-main-sec .tocken-input input {
+  width: 70px;
+  padding: 3px;
+}
+.funds-main-sec .tocken-input span {
+  margin-left: 5px;
+  font-size: 25px;
+}
+.funds-main-sec .token-paid, .funds-main-sec .funds-in-price {
+  margin-top: 20px;
+}
+.funds-section .fund-billing  {
+  margin-top: 30px;
+}
+.funds-section .fund-billing  .transfer-button {
+  background: #5887f9;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 3px 25px;
+  border-radius: 3px;
+}
+.funds-section h5 {
+  font-size: 24px;
+}
 @media (min-width: 767px) {
    .modal-dialog {
     width: 720px;
